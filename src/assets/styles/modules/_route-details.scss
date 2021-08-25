@@ -1,0 +1,37 @@
+.route-details {
+  .best-route {
+
+  }
+  .other-routes {
+    margin-top: 20px;
+  }
+  .best-route, .other-routes {
+    .table-container {
+      .table-content {
+        .table-head {
+          .table-row {
+            .table-cell {
+              color: rgb(124, 132, 151);
+              font-size: 12px;
+              text-align: left;
+              font-weight: 600;
+            }
+          }
+        }
+        .table-body {
+          .table-row {
+            .table-main-cell {
+              color: rgb(58, 72, 97);
+              text-align: left;
+              font-weight: 600;
+              font-size: 14px;
+            }
+            .table-cell {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

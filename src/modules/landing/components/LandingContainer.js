@@ -25,7 +25,7 @@ class LandingContainer extends Component {
     web3: '',
     account: '',
     NULL_ADDRESS: '0x0000000000000000000000000000000000000000',
-    referrer: 'paraswap-swap',
+    referrer: 'defi-swap',
     spenderAddress: '0xb70Bc06D2c9Bf03b3373799606dc7d39346c06B3',
     MAX_ALLOWANCE: '123123442345235562344256956453452345745678845678896456039457584007913129639935',
     loading: false,
