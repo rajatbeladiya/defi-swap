@@ -5,13 +5,19 @@
   align-items: center;
   border-bottom: lightgrey 1px solid;
   padding: 0 20px;
-  .app-name {
-    font-size: 20px;
-    font-weight: 900;
+  .app-name-wrapper {
     display: flex;
     align-items: center;
-    height: 100%;
-    // padding-left: 20px;
+    .app-name {
+      font-size: 20px;
+      font-weight: 900;
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+    .MuiFormControl-root {
+      margin-left: 20px;
+    }
   }
   .metamask-address {
     font-weight: bold;

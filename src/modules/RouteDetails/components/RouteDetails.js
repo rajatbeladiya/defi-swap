@@ -12,7 +12,7 @@ const RouteDetails = ({ priceRoute }) => {
   return (
     <div className="route-details">
       <div className="best-route">
-        <h3>BEST ROUTE</h3>
+        <h3 className="title">BEST ROUTE</h3>
         <TableContainer component={Paper} className="table-container">
           <Table className="table-content">
             <TableHead className="table-head">
@@ -35,7 +35,7 @@ const RouteDetails = ({ priceRoute }) => {
         </TableContainer>
       </div>
       <div className="other-routes">
-        <h3>OTHER ROUTES</h3>
+        <h3 className="title">OTHER ROUTES</h3>
         <TableContainer component={Paper} className="table-container">
           <Table className="table-content">
             <TableHead className="table-head">
