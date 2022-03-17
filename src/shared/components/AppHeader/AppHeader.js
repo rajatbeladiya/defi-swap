@@ -11,17 +11,6 @@ const AppHeader = ({ account }) => {
     <div className="app-header-container" id="app-header">
       <div className="app-name-wrapper">
         <div className="app-name">Defi Swap</div>
-        {/* <FormControl>
-          <Select
-            // value={age}
-            // onChange={handleChange}
-            label="Age"
-          >
-            <MenuItem value={1}>Ethereum</MenuItem>
-            <MenuItem value={56}>Polygon</MenuItem>
-            <MenuItem value={137}>BSC</MenuItem>
-          </Select>
-        </FormControl> */}
       </div>
       <div className="metamask-address">{account && account}</div>
     </div>

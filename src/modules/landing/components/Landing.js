@@ -99,7 +99,7 @@ const Landing = ({
               </Button>
             </div>
           </div>
-          <div className="swap-details">
+          {/* <div className="swap-details">
             <div className="label estimated-cost">
               <div>Estimated Cost</div>
               <div className="value">~${priceRoute.bestRouteGasCostUSD}</div>
@@ -112,7 +112,7 @@ const Landing = ({
               <div>Minimum Received</div>
               <div className="value">{priceRoute.priceWithSlippage && (priceRoute.priceWithSlippage / 10 ** token1.decimals)} {token1.symbol}</div>
             </div>
-          </div>
+          </div> */}
         </BlockUI>
       </div>
     </div>
